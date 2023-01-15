@@ -99,3 +99,142 @@ a{
 .right-side{
     margin-top: 180px;
 }
+/* feature style starts here  */
+.loved-feature-section{
+    margin-top: 170px;
+}
+.feature-grid{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+}
+.feature-title-flex{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.vl{
+    border-left: 6px solid #FF900E ;
+    height: 80px;
+}
+.feature-title h1{
+    color: #131313;
+    font-size: 35px;
+    margin-left: 20px;
+}
+.single-feature{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 30px;
+    width: 406px !important;
+}
+.single-feature p{
+    width: 405px !important;
+}
+.single-feature:last-child{
+    margin-bottom: 0px;
+}
+.single-feature-content{
+    padding: 25px 15px;
+}
+.left-grid{
+    /* width: 50%; */
+    margin-right: 70px;
+}
+.right-grid img{
+    width: 600px;
+    height: 800px;
+    position: relative;
+}
+.experience{
+    background-color: #FF900E;
+    text-align: center;
+    /* width: 242px; */
+    padding: 25px; 
+    border-radius: 5px;
+}
+.experience{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -90px;
+}
+/* some fact starts here  */
+.some-fact-section{
+    margin-top: 130px;
+}
+.some-title h3{
+    color: #131313;
+    font-size: 35px;
+    font-weight: 700;
+}
+.some-title p{
+    width: 400px;
+    color: #727272;
+    margin-top: 10px;
+    margin: 25px 0px;
+}
+.single-fact{
+    text-align: center;
+}
+.single-fact-content{
+    padding: 15px 30px ;
+}
+.single-fact h1{
+    font-size: 35px;
+    margin: 10px 0px;
+}
+.single-fact-content h5{
+    font-size: 18px;
+    color: #727272;
+}
+.single-fact{
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+}
+.fact-flex-controls{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+/* sponsors section  */
+.primary-title{
+    text-align: center;
+    width: 410px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.primary-title h1{
+    font-size: 35px;
+}
+.primary-title p{
+    width: 406px;
+    color: #727272;
+    margin-top: 10px;
+    margin-top: 25px;
+}
+.sponsor-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.sponsor-flex img{
+    color: #727272;
+    /* mix-blend-mode: luminosity; */
+    /* filter: brightness(60%); */
+    /* mix-blend-mode: luminosity; */
+    filter: grayscale(100%) !important;
+}
+.copyright{
+    margin-top: 100px;
+    background-color: #fff4e7;
+    font-size: 16px;
+    color: #424242;
+    font-family: work sans;
+    width: 100%;
+}
+.copyright p{
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0 auto;
+}
