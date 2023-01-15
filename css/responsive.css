@@ -1,0 +1,119 @@
+@media only screen and (max-width: 480px){
+    .header-top{
+        /* width: 480px !important; */
+        /* flex-wrap: nowrap; */
+        height: 600px;
+    }
+    .banner-content{
+        width: 400px;
+        /* height: 400px; */
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .banner-content p{
+        width: 400px;
+    }
+    .logo h1{
+        font-size: 22px !important;
+        margin-left: 20px;
+    }
+    .menu ul li{
+        display: block;
+    }
+    .banner-image img{
+        width: 400px !important;
+        /* margin-left: 70px; */
+        margin-left: 20px;
+        margin-top: -30px;
+    }
+    .image-grid{
+        display: block;
+    }
+    .image-grid img{
+        width: 400px;
+        height: 400px;
+        /* margin: 0 auto; */
+        margin-left: 20px;
+        /* margin-top: -80px; */
+        margin-bottom: 15px;
+    }
+    .image-grid{
+        margin-top: -90px;
+        display: block !important;
+    }
+    .image-grid img:last-child{
+        margin-bottom: 0px;
+    }
+    /* .feature-section{
+        width: 480px !important;
+    } */
+    .feature-flex-controls{
+        display: block;
+    }
+    .right-side{
+        width: 440px;
+        text-align: center;
+    }
+    .right-side p{
+        margin: 0px 0px !important;
+        width: 390px !important;
+        margin: 0 auto !important; 
+    }
+    .feature-title-flex{
+        margin-left: 50px;
+    }
+    .feature-flex-controls p{
+        /* margin-left: 10px !important; */
+        width: 400px !important;
+    }
+    .single-feature{
+        margin-left: 20px;
+    }
+    .feature-grid{
+        display: block;
+    }
+    .right-grid img{
+        width: 400px;
+        height: 500px;
+        margin-left: 20px;
+    }
+    .experience{
+        margin-left: 50px;
+    }
+    .some-title{
+        width: 350px;
+        text-align: center;
+    }
+    .some-title h3{
+        margin-left: 70px;
+    }
+    .fact-flex-controls{
+        display: block;
+    }
+    .single-fact{
+        width: 300px;
+        margin-left: 60px;
+        margin-bottom: 15px;
+    }
+    .single-fact:last-child{
+        margin-bottom: 0px;
+    }
+    /* .primary-title{
+        width: 400px !important;
+        margin-left: 0px !important;
+    } */
+    .sponsor-flex{
+        display: block !important;
+    }
+    .copyright{
+        width: 350px;
+        padding: 0px 30px;
+        margin-left: 15px;
+    }
+    .left-grid{
+        margin-top: -100px;
+    }
+    .right-side{
+        margin-top: 10px;
+    }
+}
